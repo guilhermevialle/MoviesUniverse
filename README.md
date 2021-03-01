@@ -1,5 +1,3 @@
-## Minimalist Music App v5.0 
-
 ## Movies Universe Website / Application
 
 > #### by guilhermevialle
@@ -26,6 +24,10 @@
    ![](capture8)
 	
    ### Movie app interface and usage
+   
+   - #### App demonstration
+   ![](gif2)
+   
    - #### App Interface
    ![](capture4)
    
@@ -51,4 +53,3 @@
 
 - https://twitter.com/guivialle
 - https://www.instagram.com/guilherme.vialle/
-
