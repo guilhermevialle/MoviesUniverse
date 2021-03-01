@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movies Universe</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="file.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body class="well" id="well">
+        <div class="section dataColor" data-background="#001029">
+            <h1 class="homeTitle">.mUniverse</h1>
+
+            <div id="particles-js"></div>
+
+            <div data-precision="10" class="homeImg">
+                <img
+                    id="parallax"
+                    data-depth="0.1"
+                    class="parallax"
+                    src="/images/T_NuWa_Space_ReColor_Card-removebg-preview (1).png"
+                />
+
+                <h1 class="sliderTitle">Explore Now</h1>
+            </div>
+
+            <div class="slider"></div>
+        </div>
+
+        <div class="showMovie">
+            <div class="imgPreview">
+                <div class="arrow">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="36"
+                        height="36"
+                        viewBox="0 0 172 172"
+                        style="fill: #000000"
+                    >
+                        <g
+                            fill="none"
+                            fill-rule="nonzero"
+                            stroke="none"
+                            stroke-width="1"
+                            stroke-linecap="butt"
+                            stroke-linejoin="miter"
+                            stroke-miterlimit="10"
+                            stroke-dasharray=""
+                            stroke-dashoffset="0"
+                            font-family="none"
+                            font-weight="none"
+                            font-size="none"
+                            text-anchor="none"
+                            style="mix-blend-mode: normal"
+                        >
+                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                            <g fill="#ffffff">
+                                <path
+                                    d="M86,6.88c-43.65844,0 -79.12,35.46156 -79.12,79.12c0,43.65844 35.46156,79.12 79.12,79.12c43.65844,0 79.12,-35.46156 79.12,-79.12c0,-43.65844 -35.46156,-79.12 -79.12,-79.12zM86,13.76c39.93625,0 72.24,32.30375 72.24,72.24c0,39.93625 -32.30375,72.24 -72.24,72.24c-39.93625,0 -72.24,-32.30375 -72.24,-72.24c0,-39.93625 32.30375,-72.24 72.24,-72.24zM71.81,55.04c-0.76594,0.08063 -1.49156,0.43 -2.0425,0.9675l-26.9825,27.09l-0.3225,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215v0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.215,0.36281 -0.36281,0.76594 -0.43,1.1825c0,0.04031 0,0.06719 0,0.1075c0,0.1075 0,0.215 0,0.3225c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0.05375,0.45688 0.20156,0.88688 0.43,1.29c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.18813,0.20156 0.40313,0.38969 0.645,0.5375l26.875,26.9825c1.37063,1.37063 3.57438,1.37063 4.945,0c1.37063,-1.37062 1.37063,-3.57437 0,-4.945l-21.6075,-21.6075h74.175c1.23625,0.01344 2.39188,-0.63156 3.02344,-1.70656c0.61813,-1.075 0.61813,-2.39187 0,-3.46687c-0.63156,-1.075 -1.78719,-1.72 -3.02344,-1.70656h-74.175l21.6075,-21.6075c1.11531,-1.03469 1.41094,-2.67406 0.73906,-4.03125c-0.65844,-1.37062 -2.15,-2.12312 -3.64156,-1.88125z"
+                                ></path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <img
+                    src="https://moviegango.com/wp-content/uploads/2020/11/m1.jpg"
+                />
+                <div class="infoPreview">
+                    <div class="titlePreview">
+                        <h1><span></span></h1>
+                        <p></p>
+                    </div>
+                    <div class="descriptionPreview">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middleSection dataColor" data-background="#01060D">
+            <h1>
+                The
+                <span style="font-weight: bold; font-size: 2.5rem">World</span>
+                Of Movies <br />Over 3700 films and series
+            </h1>
+            <div class="leftSlider">
+                <div class="text">
+                    <h1>It's Free</h1>
+                    <h3>I literally don't know anything about design</h3>
+                    <a data-scroll class="explore" href="#interfaceSection">
+                        Explore
+                    </a>
+                </div>
+            </div>
+            <div class="rightSlider">
+                <div class="textRight">
+                    <h1>FAST</h1>
+                    <h1>COOL</h1>
+                    <h1>UNIQUE</h1>
+                </div>
+            </div>
+            <div class="upSlider"></div>
+        </div>
+
+        <div
+            id="interfaceSection"
+            class="interfaceSection dataColor"
+            data-background="#0D0016"
+        >
+            <div class="interface">
+                <div class="leftSide">
+                    <h1>.mUniverse</h1>
+                    <div class="btn-group dropright">
+                        <button
+                            type="button"
+                            class="btn-secondary dropdown-toggle"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Top Rated Episodes
+                        </button>
+                        <div class="rating dropdown-menu">
+                            <!-- Dropdown menu links -->
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Action
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Drama
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Horror
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Supernatural
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Adventure
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Thriller
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Comedy
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Family
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Food
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Fantasy
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Adventure
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="btn-group dropright">
+                        <button
+                            type="button"
+                            class="btn-secondary dropdown-toggle"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Series
+                        </button>
+                        <div class="dropdown-menu seriesListBtn">
+                            <!-- Dropdown menu links -->
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Action
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Drama
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Horror
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Supernatural
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Adventure
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Thriller
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Comedy
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Family
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Food
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Fantasy
+                            </button>
+                            <button
+                                class="dropdown-item"
+                                onclick="limparArrayDeFilmes()"
+                                href="#"
+                            >
+                                Adventure
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rightSide">
+                    <div class="barraVazia">
+                        <div class="barraProgresso"></div>
+                    </div>
+                    <div class="pesquisa">
+                        <h1 class="classificacao">Enjoy!</h1>
+                        <div class="inputPesquisa">
+                            <input
+                                class="inpSlider"
+                                type="text"
+                                name="inp"
+                                id="inp"
+                                placeholder="Search movies"
+                            />
+                        </div>
+                    </div>
+                    <div class="filmes">
+                        <div class="getStart">
+                            <h1>Let's Start</h1>
+                            <p>Search for your favorite movie!</p>
+                        </div>
+                        <div class="box1">
+                            <h3>
+                                What are you looking for?
+                                <br />
+                                There's nothing here...
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="adSection dataColor" data-background="#000711">
+            <div class="bottomSlider">
+                <div class="texto">
+                    <h3>
+                        All Copyrights <br />Reserved. <br />
+                        Doubt? Contact me.
+                    </h3>
+                </div>
+                <div class="imageCircle">
+                    <img src="/images/image.png" alt="" />
+                    <div class="circle"></div>
+                </div>
+                <div class="socialMedia">
+                    <a href="https://twitter.com/guivialle">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0px"
+                            y="0px"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 30 30"
+                            style="fill: #000000"
+                        >
+                            <path
+                                d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"
+                            ></path>
+                        </svg>
+                        <p>@guivialle</p>
+                    </a>
+                    <a href="https://www.instagram.com/guilherme.vialle/">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0px"
+                            y="0px"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 30 30"
+                            style="fill: #000000"
+                        >
+                            <path
+                                d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"
+                            ></path>
+                        </svg>
+                        <p>@guilherme.vialle</p>
+                    </a>
+                    <a href="https://github.com/guilhermevialle">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0px"
+                            y="0px"
+                            width="30"
+                            height="30"
+                            viewBox="0 0 30 30"
+                            style="fill: #000000"
+                        >
+                            <path
+                                d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+                            ></path>
+                        </svg>
+                        <p>guilhermevialle</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <!-- stats.js lib -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="jquery.scrollie.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+        <script src="app.js"></script>
+    </body>
+</html>
