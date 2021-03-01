@@ -36,7 +36,7 @@
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture5.png)
    
    - #### You can also search by categories
-   ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture7.png)
+   ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture7porra.png)
 
    - #### Clicking on the movie, you can see his information
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture6.png)
