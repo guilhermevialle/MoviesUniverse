@@ -26,7 +26,7 @@
    ### Movie app interface and usage
    
    - #### App demonstration
-   ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Gif/gif2.gif)
+   ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Gif/gif2teste.gif)
    
    - #### App Interface
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture4.png)
