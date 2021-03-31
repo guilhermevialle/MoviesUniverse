@@ -11,7 +11,7 @@
 
 *This not responsive yet.* 
 
-   ### Demonstration
+   ### Preview
    
    - #### Page
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Gif/gif1.gif)
