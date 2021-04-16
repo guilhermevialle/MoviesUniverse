@@ -16,7 +16,7 @@
    - #### Page
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Gif/gif1.gif)
    
-   - ### Screeshots
+   - ### Preview
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture.png)
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture2.png)
    ![](https://github.com/guilhermevialle/MoviesUniverse/blob/main/Movies%20Universe/Screenshot/capture3.png)
